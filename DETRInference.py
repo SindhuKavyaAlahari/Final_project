@@ -92,7 +92,7 @@ def draw_boxes(frame, tracked_objects, polygon, object_states):
 
     # Display enter and leave counts
     cv2.putText(frame, f'Enter: {enter_count}', (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (0, 255, 0), 3)
-    cv2.putText(frame, f'Leave: {leave_count}', (50, 100), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (0, 255, 0), 3)
+    # cv2.putText(frame, f'Leave: {leave_count}', (50, 100), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (0, 255, 0), 3)
 
     return frame
 
@@ -144,6 +144,7 @@ while cap.isOpened():
 
     # Show the frame in a window
     cv2.imshow('Object Detection', frame)
+    cv2.imwrite('DetrOutput1.jpg',frame)
 
     # Write the frame to the output video
     out.write(frame)
