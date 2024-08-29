@@ -16,8 +16,8 @@ To set up the environment and install the required dependencies, follow these st
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/yourproject.git
-    cd yourproject
+    [(https://github.com/SindhuKavyaAlahari/Final_project.git)]
+    cd Final_project
     ```
 
 2. Create a virtual environment (optional but recommended):
