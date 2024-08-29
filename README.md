@@ -16,7 +16,7 @@ To set up the environment and install the required dependencies, follow these st
 
 1. Clone the repository:
     ```bash
-    [(https://github.com/SindhuKavyaAlahari/Final_project.git)]
+    https://github.com/SindhuKavyaAlahari/Final_project.git
     cd Final_project
     ```
 
