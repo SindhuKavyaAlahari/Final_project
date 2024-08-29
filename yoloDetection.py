@@ -7,7 +7,7 @@ import psutil
 import time
 
 # Load the pre-trained YOLOv8n model
-model = YOLO('yolov8n.pt')
+model = YOLO('yolov8n_trained.pt')
 
 # Initialize the SORT tracker
 tracker = Sort(max_age=30)
@@ -81,7 +81,7 @@ def draw_boxes(frame, tracked_objects, polygon, object_states):
 
     # Display enter and leave counts
     cv2.putText(frame, f'Enter: {enter_count}', (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (0, 255, 0), 3)
-    cv2.putText(frame, f'Leave: {leave_count}', (50, 100), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (0, 255, 0), 3)
+    # cv2.putText(frame, f'Leave: {leave_count}', (50, 100), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (0, 255, 0), 3)
 
     return frame
 
