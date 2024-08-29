@@ -38,5 +38,9 @@ Input Video : https://drive.google.com/file/d/1YwrK0XWT47XK8S8S9Uqrcv3pnttF5JOC/
 ## Output :
 - **DETR Detections**:
   ![DETR Detections](DetrOutput1.jpg)
+- **Retinanet Detections**:
+  ![Retinanet Detections](retinanetOutput.jpg)
+- **Yolo Detections**:
+  ![Yolo Detections](yoloOutput.jpg)
 
 
